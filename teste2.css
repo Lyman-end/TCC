@@ -70,12 +70,12 @@
     text-align: center;
 }
 .content h1 {
-    color: #fff;
+    color: #000000;
     font-size: 55px;
     text-transform: uppercase;
 }
 .content p {
-    color: #fff;
+    color: #000000;
     font-size: 17px;
     font-family: sans-serif;
     margin-top: 15px;
