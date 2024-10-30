@@ -1,0 +1,145 @@
+@import url('httpx://fonts.googleapis.com/css2?family=montserrat:wght@100;200;300;500;600;700;800;900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'montserrat',sans-serif;
+}
+.container {
+    min-height: 100vh;
+    background-image:url(imagens/cine.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar {
+    width: 100%;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+}
+.navbar .brand {
+    text-transform: uppercase;
+    font-size: 35px;
+    font-weight: 700;
+    margin: 10px 0px;
+}
+.menu ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu ul li {
+    list-style: none;
+    padding: 15px 25px;
+    cursor: pointer;
+}
+.menu ul li:hover {
+    background-color: #da974c;
+    border-radius: 5px;
+    transition: 0.5s ease;
+}
+.menu ul li a {
+    text-decoration: none;
+    font-size: 19px;
+    color: #fff;
+}
+.toggle-btn {
+    position: absolute;
+    top: 40px;
+    right: 30px;
+    display: none;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 22px;
+    width: 32px;
+}
+.toggle-btn .bar {
+    height: 3px;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 5px;
+}
+.content {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.content h1 {
+    color: #fff;
+    font-size: 55px;
+    text-transform: uppercase;
+}
+.content p {
+    color: #fff;
+    font-size: 17px;
+    font-family: sans-serif;
+    margin-top: 15px;
+}
+.content .button {
+    margin-top: 50px;
+}
+.content .button a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    display: inline-block;
+    border: 1px solid #da974c;
+    border-radius: 5px;
+    padding: 15px 20px;
+    margin: 0px 10px;
+}
+.content .button a:hover {
+    background-color: #da974c;
+    transition: 0.5s ease;
+}
+@media screen  and (max-width: 768px) {
+    .toggle-btn{
+        display: flex;
+        z-index: 2;
+    }
+    .menu {
+        display: none;
+        width: 100%;
+    }
+    .menu ul {
+        width: 100%;
+        background-color: #00243e;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding-right: 0px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 1;
+    }
+    .menu ul li {
+        font-size: 18px;
+    }
+    .menu.active {
+        display: flex;
+    }
+    .content h1 {
+        font-size: 45px;
+    }
+    .content .button a {
+        padding: 12px 18px;
+        margin: 10px 10px;
+    }
+}
+@media screen  and (max-width: 550px) {
+    .content h1 {
+        font-size: 30px;
+    }
+    .content .button a {
+        padding: 8px 12px;
+    }
+}
