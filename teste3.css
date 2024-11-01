@@ -78,6 +78,10 @@ body {
    overflow: hidden;
    text-align: center;
    padding: 20px 10px;
+   transition: 0.3s ease;
+}
+.perfil:hover {
+    transform: translateY(-10px);
 }
 .image img {
     width: 125px;
