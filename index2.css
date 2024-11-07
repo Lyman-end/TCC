@@ -150,6 +150,10 @@ body {
         padding: 12px 18px;
         margin: 10px 10px;
     }
+    img {
+        width: 100px;
+        height: 100px;
+    }
 }
 @media screen  and (max-width: 550px) {
     .content h1 {

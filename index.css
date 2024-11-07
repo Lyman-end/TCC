@@ -97,6 +97,10 @@
     background-color: #da974c;
     transition: 0.7s ease;
 }
+img {
+    width: 100px;
+    height: 100px;
+}
 @media screen  and (max-width: 768px) {
     .toggle-btn{
         display: flex;
