@@ -113,6 +113,7 @@ body {
 }
 .content .button a:hover {
     background-color: #da974c;
+    transition: 0.3 ease;
     transform: translateY(-10px);
 }
 img {
