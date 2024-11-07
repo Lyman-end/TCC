@@ -93,12 +93,13 @@ body {
     font-size: 30px;
     color: #fff;
     display: block;
-    width: 150px;
+    width: 230px;
+    height: 80px;
     border: 1px solid #da974c;
     position: relative;
     left: 20px;
     border-radius: 5px;
-    padding: 15px 0px;
+    padding: 20px 50px;
     margin: 0px 10px;
     text-align: center;
 }
@@ -112,6 +113,10 @@ body {
 .content .button a:hover {
     background-color: #da974c;
     transition: 0.5s ease;
+}
+img {
+    width: 100px;
+    height: 100px;
 }
 @media screen  and (max-width: 768px) {
     .toggle-btn{
