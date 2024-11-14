@@ -115,6 +115,10 @@ body {
 .social-icons a:hover{
     color: #182848;
 }
+img {
+    width: 100px;
+    height: 100px;
+}
 
 
 
