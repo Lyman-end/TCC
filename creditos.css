@@ -114,7 +114,7 @@ body {
 .social-icons a:hover{
     color: #182848;
 }
-img {
+.navbar .brand img {
     width: 100px;
     height: 100px;
     transform: translate(-50%, 8%);
