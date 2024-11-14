@@ -61,6 +61,7 @@
     font-family: Arial, sans-serif;
     width: 95%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     gap: 20px;
