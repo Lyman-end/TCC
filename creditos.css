@@ -8,6 +8,7 @@
 .navbar {
     width: 100%;
     color: #000000;
+    background-color: rgb(183, 180, 180);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -79,7 +80,6 @@ body {
    overflow: hidden;
    text-align: center;
    padding: 20px 10px;
-   transition: 0.3s ease;
 }
 .perfil:hover {
     transform: translateY(-10px);
@@ -119,7 +119,6 @@ img {
     width: 100px;
     height: 100px;
 }
-
 
 
 
