@@ -22,9 +22,8 @@ body {
 }
 .navbar .brand {
     text-transform: uppercase;
-    font-size: 35px;
-    font-weight: 700;
-    margin: 10px 0px;
+    position: relative;
+    left: 30px;
 }
 .menu ul {
     display: flex;
@@ -109,6 +108,8 @@ body {
     font-family: sans-serif;
     color: #fff;
     padding: 10px;
+    position: relative;
+    display: flex;
     
 }
 .content .button a:hover {
@@ -119,6 +120,7 @@ body {
 img {
     width: 100px;
     height: 100px;
+    transform: translate(-50%, 8%);
 }
 @media screen  and (max-width: 768px) {
     .toggle-btn{
@@ -168,5 +170,8 @@ img {
     }
     .content .button a {
         padding: 8px 12px;
+    }
+     .content span {
+        font-size: 15px;
     }
 }
