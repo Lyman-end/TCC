@@ -5,13 +5,14 @@
     box-sizing: border-box;
     font-family: 'montserrat',sans-serif;
 }
+body {
+    background-color: rgb(18, 15, 15);
+}
 .container {
     min-height: 100vh;
-    background-image: url(imagens/cine.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 .navbar {
+    background-color: rgb(132, 10, 10);
     width: 100%;
     color: #fff;
     display: flex;
@@ -21,9 +22,8 @@
 }
 .navbar .brand {
     text-transform: uppercase;
-    font-size: 35px;
-    font-weight: 700;
-    margin: 10px 0px;
+    position: relative;
+    left: 30px;
 }
 .menu ul {
     display: flex;
@@ -38,7 +38,7 @@
 .menu ul li:hover {
     background-color: #da974c;
     border-radius: 5px;
-    transition: 0.7s ease;
+    transition: 0.5s ease;
 }
 .menu ul li a {
     text-decoration: none;
@@ -47,7 +47,7 @@
 }
 .toggle-btn {
     position: absolute;
-    top: 40px;
+    top: 60px;
     right: 30px;
     display: none;
     justify-content: space-between;
@@ -56,7 +56,7 @@
     width: 32px;
 }
 .toggle-btn .bar {
-    height: 3px;
+    height: 5px;
     width: 100%;
     background-color: #fff;
     border-radius: 5px;
@@ -64,24 +64,29 @@
 .content {
     width: 100%;
     position: absolute;
-    top: 50%;
+    top: 18%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, 8%);
+}
+.titulo {
     text-align: center;
 }
-.content h1 {
-    color: #000000;
+.content h1{
+    color: #fff;
     font-size: 55px;
     text-transform: uppercase;
+    text-align: center;
 }
-.content p {
-    color: #000000;
-    font-size: 17px;
+.content p{
+    color: #fff;
+    font-size: 30px;
     font-family: sans-serif;
     margin-top: 15px;
+    text-align: center;
 }
 .content .button {
     margin-top: 50px;
+    text-align: center;
 }
 .content .button a {
     text-decoration: none;
@@ -92,15 +97,21 @@
     border-radius: 5px;
     padding: 15px 20px;
     margin: 0px 10px;
+    transition: 0.3s ease;
+    text-align: center;
 }
+
 .content .button a:hover {
     background-color: #da974c;
-    transition: 0.7s ease;
+    transition: 0.5s ease;
+    transform: translateY(-10px);
 }
-img {
+.navbar .brand img {
     width: 100px;
     height: 100px;
+    transform: translate(-50%, 8%);
 }
+
 @media screen  and (max-width: 768px) {
     .toggle-btn{
         display: flex;
