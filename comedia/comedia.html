@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sessão Comedia - Filmes</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #121212;
+            color: #ffffff;
+        }
+        .hero {
+            position: relative;
+            text-align: center;
+            color: #d51818;
+        }
+        .hero img {
+            width: 800px;
+            height: 500px;
+        }
+        .hero h1 {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 3em;
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 10px;
+        }
+        .section-title {
+            text-align: center;
+            font-size: 2em;
+            margin: 20px 0;
+        }
+        .movies {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+            padding: 20px;
+        }
+        .movie-card {
+            background-color: #333;
+            border-radius: 10px;
+            overflow: hidden;
+            width: 200px;
+            text-align: center;
+            color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .movie-card img {
+            width: 100%;
+            height: auto;
+        }
+        .movie-card .info {
+            padding: 10px;
+        }
+        .movie-card button {
+            background-color: #53e210;
+            color: #fff;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            width: 100%;
+            font-size: 1em;
+        }
+        .movie-card button:hover {
+            background-color: #cc0000;
+        }
+    </style>
+</head>
+<link rel="stylesheet" href="">
+
+    <div class="hero">
+        <img src="imagem/comedia.png" alt="Imagem de Fundo de Filmes">
+        <h1>Assista seus filmes favoritos</h1>
+    </div>
+
+    
+    
+    <h2 class="section-title">Sessão Comédia</h2>
+
+   
+    <div class="movies">
+        
+        <div class="movie-card">
+            <img src="imagem/deadpool.png" alt="Filme 1">
+            <div class="info">
+                <h3>DEADPOOL</h3>
+            <br>
+            <br>
+                <p>2016</p>
+            </div>
+            <button onclick="window.location. href='deapol.html '">Assista Agora</button>
+        </div>
+
+       
+        <div class="movie-card">
+            <img src="imagem/nao.png" alt="Filme 2">
+            <div class="info">
+                <h3>NÃO OLHE PARA CIMA
+                </h3>
+    <br>
+                <p> 2019</p>
+                
+            </div>
+            <button onclick="window.location.href='não.html'">Assista Agora</button>
+        </div>
+        <div class="movie-card">
+            <img src="imagem/scott.png" alt="Filme 2">
+            <div class="info">
+                <h3>SCOTT PILGRIM VS O MUNDO</h3>
+               <br>
+               <br>
+                <p> 2010</p>
+                
+            </div>
+            <button onclick="window.location.href='scoot.html'">Assista Agora</button>
+        </div>
+        <div class="movie-card">
+            <img src="imagem/Shiva.png" alt="Filme 2">
+            <div class="info">
+                <h3>SHIVA BABY</h3>
+                <br>
+                
+                <p>2019</p>
+            </div>
+            <button onclick="window.location.href='shiva.html'">Assista Agora</button>
+        </div>
+        <p>&copy; 2024 CINELIST. Todos os direitos reservados.</p>
+    </footer>   
+</body>
+</html>
